@@ -1,0 +1,14 @@
+
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="{% url 'sell:home' %}">Home</a></li>
+  <li role="presentation"><a href="{% url 'sell:create' %}">Create Shoe</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+
+<title>{%block title%}Shoes{% endblock %}</title>
+
+{% block content %}
+<h2>Welcome to ShoePal, Where you get to create your own shoe</h2>
+
+{% endblock %}
+

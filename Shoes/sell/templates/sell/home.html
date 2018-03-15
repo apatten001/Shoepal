@@ -1,0 +1,16 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>I am the greatest at Django in the house
+    <ul>
+        {% for obj in object_list %}
+            <li>{{obj.brand}} - {{obj.name}} : {{obj.price}}</li>
+        {% endfor %}
+    </ul>
+</p>
+</body>
+</html>

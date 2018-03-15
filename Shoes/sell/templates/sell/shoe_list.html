@@ -1,0 +1,12 @@
+{% extends 'sell/base.html' %}
+
+{%block title%}Your Shoes | ShoePal{% endblock %}
+{% block content %}
+    <ol>
+        {% for obj in object_list %}
+            <li>{{obj.brand}} - {{obj.name}} : ${{obj.price}}</li>
+        {% endfor %}
+    </ol>
+</body>
+{% endblock %}
+</html>
